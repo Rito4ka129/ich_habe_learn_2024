@@ -1,0 +1,3 @@
+   0 vi myfirstbashscript.sh
+   1 ls -al
+   2 history > /tmp/history.txt && export_file /tmp/history.txt

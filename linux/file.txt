@@ -1,0 +1,30 @@
+
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+devtmpfs                 91.3M         0     91.3M   0% /dev
+#!/bin/bash
+pwd
+echo "This script was launched from :$(pwd)"
+   0 cd ..
+   1 ls
+   2 cd /tmp
+   3 vi file.txt
+   4 ls -alh
+   5 df -h | head -3
+   6 df -h | 3 >> file.txt
+   7 df -h | head -3 >> file.txt
+   8 cat file.txt
+   9 ls -alh
+  10 chmod 070 file.txt
+  11 ls -alh
+  12 > myfirstbashscript.sh
+  13 ls -alh
+  14 chmod +x myfirstbashscript.sh
+  15 ls -alh
+  16 export USER=Margarita_Wenzel
+  17 echo $USER
+  18 vi myfirstbashscript.sh
+  19 ./myfirstbashscript.sh
+  20 cat myfirstbashscript.sh
+  21 cat myfirstbashscript.sh >> file.txt
+  22 history >> file.txt

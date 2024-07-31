@@ -1,0 +1,6 @@
+ students = [("Alice", 20, 90), ("Bob", 19, 80), ("Charlie", 21, 95), ("David", 18, 85)]
+n = int(input('¬ведите минимальный средний балл: '))
+
+for student in students:
+    if student[2] >= n:
+        print(student[0])

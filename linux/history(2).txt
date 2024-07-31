@@ -1,0 +1,15 @@
+   0 ls -al
+   1 date > NewFile.txt
+   2 df -h /
+   3 df -h | grep -w "/" >> NewFile.txt
+   4 history | tail -3 >> NewFile.txt
+   5 cat /etc/passwd
+   6 cat /etc/passwd | grep -w "cron"
+   7 cat /etc/passwd | grep -w "cron" >> NewFile.txt
+   8 cat /etc/group
+   9 cat /etc/group | grep root
+  10 cat /etc/group | grep root | wc -l
+  11 cat /etc/group | grep root | wc -l >> NewFile.txt
+  12 cat NewFile.txt
+  13 nano NewFile.txt
+  14 history > /tmp/history.txt && export_file /tmp/history.txt

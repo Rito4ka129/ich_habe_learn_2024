@@ -1,0 +1,32 @@
+dir
+cd linux
+dir
+git clone git@github.com:Rito4ka/Linux-12.git
+git clone git@github.com:Rito4ka129/Linux-12.git
+dir
+cd linux-12
+dir
+git branch feature
+git status
+New_Repository>git branch -v
+git branch -v
+git checkout feature
+git branch -v
+notepad readme.md
+git status
+dir
+del git
+dir
+git status
+git add .
+git status
+git commit .
+git status
+git push
+git push --set-upstream origin feature
+git commit --amend
+git checkout main
+git status
+git merge feature
+history > history.txt
+doskey /history > history.txt
